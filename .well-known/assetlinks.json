@@ -1,3 +1,4 @@
+```json
 [
   {
     "relation": [
@@ -13,5 +14,21 @@
         "F0:BF:B8:7B:F9:61:2D:41:95:03:4C:9C:85:F3:9A:06:61:2D:2C:32:7D:4E:2E:94:9D:BB:CF:3D:33:BA:1B:82"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bankscan.pro",
+      "sha256_cert_fingerprints": [
+        "72:8C:F3:8A:CC:80:CA:FC:DF:C9:90:30:4E:22:C3:D4:9B:D6:DD:86:29:54:5D:C3:2C:14:92:F1:9F:2B:11:30",
+        "45:E1:1F:30:62:24:66:EA:C9:73:7F:F5:38:7C:91:93:24:72:C6:8E:24:7D:77:07:9D:FA:AB:75:29:54:25:49",
+        "42:67:A0:46:14:E8:73:20:DC:3E:B0:4D:E1:7D:CF:91:5F:D9:B0:54:3D:71:F2:4A:D0:F2:84:DB:20:F0:B9:A6"
+      ]
+    }
   }
 ]
+```
